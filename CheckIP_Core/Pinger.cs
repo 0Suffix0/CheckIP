@@ -17,5 +17,21 @@ namespace CheckIP_Core
                 return null;
             }
         }
+
+        public List<PingReply> CheckIP(IEnumerable<string> IPlist, int timeout = 250)
+        {
+            List<PingReply> pingReplies = new ();
+
+            try
+            {
+                foreach (string IP in IPlist)
+                    pingReplies.Add(_pingSender.Send(IP.Trim(), timeout));
+                return pingReplies;
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }
