@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIP_Core", "CheckIP_Core\CheckIP_Core.csproj", "{A07C4307-2834-4856-B4E0-B64559A5B034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIP_Core", "CheckIP_Core\CheckIP_Core.csproj", "{A07C4307-2834-4856-B4E0-B64559A5B034}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIP_CLI", "CheckIP_CLI\CheckIP_CLI.csproj", "{A84A1164-319A-4F43-845D-11E00C1EC2A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIP_CLI", "CheckIP_CLI\CheckIP_CLI.csproj", "{A84A1164-319A-4F43-845D-11E00C1EC2A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckIP_WPF", "CheckIP_WPF\CheckIP_WPF.csproj", "{ED25A598-3941-4F25-8C9B-6439608EBD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A84A1164-319A-4F43-845D-11E00C1EC2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A84A1164-319A-4F43-845D-11E00C1EC2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A84A1164-319A-4F43-845D-11E00C1EC2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED25A598-3941-4F25-8C9B-6439608EBD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED25A598-3941-4F25-8C9B-6439608EBD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED25A598-3941-4F25-8C9B-6439608EBD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED25A598-3941-4F25-8C9B-6439608EBD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
