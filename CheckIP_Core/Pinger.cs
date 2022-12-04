@@ -30,7 +30,7 @@ namespace CheckIP_Core
         /// <param name="IPlist"></param>
         /// <param name="timeout"></param>
         /// <returns></returns>
-        public List<PingReply> CheckIP(IEnumerable<string> IPlist, int timeout = 250)
+        public IEnumerable<PingReply> CheckIP(IEnumerable<string> IPlist, int timeout = 250)
         {
             List<PingReply> pingReplies = new ();
 
